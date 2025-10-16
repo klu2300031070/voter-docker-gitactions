@@ -1,0 +1,10 @@
+package com.klef.devops.model;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Voter {
+	
+	
+	private int id;
+}

@@ -1,0 +1,8 @@
+package com.klef.devops.repository;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface VoterRepo {
+
+}

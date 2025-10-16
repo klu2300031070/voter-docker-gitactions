@@ -1,0 +1,7 @@
+package com.klef.devops.service;
+
+import com.klef.devops.model.Voter;
+
+public interface VoterService {
+	public Voter addvoter(Voter v);
+}

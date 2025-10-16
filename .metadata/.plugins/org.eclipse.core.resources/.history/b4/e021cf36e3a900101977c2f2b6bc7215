@@ -1,0 +1,13 @@
+package com.klef.devops.service;
+
+import com.klef.devops.model.Voter;
+
+public class VoterServiceImpl implements VoterService {
+
+	@Override
+	public String addvoter(Voter v) {
+		
+		return null;
+	}
+
+}

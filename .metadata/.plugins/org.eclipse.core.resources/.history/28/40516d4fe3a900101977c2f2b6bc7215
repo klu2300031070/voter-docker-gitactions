@@ -1,0 +1,19 @@
+package com.klef.devops.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.klef.devops.model.Voter;
+import com.klef.devops.repository.VoterRepo;
+
+public class VoterServiceImpl implements VoterService {
+
+	@Autowired
+	private VoterRepo vr;
+	
+	@Override
+	public String addvoter(Voter v) {
+		
+		return null;
+	}
+
+}

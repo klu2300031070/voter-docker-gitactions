@@ -1,0 +1,6 @@
+package com.klef.devops.repository;
+
+@j
+public interface VoterRepo {
+
+}
