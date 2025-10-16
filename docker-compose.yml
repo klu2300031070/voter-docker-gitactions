@@ -13,7 +13,7 @@ services:
       - springboot-mysql-net
 
   backend:
-    image: klu2300031070/docker-backend:latest
+    image: klu2300031070/voterdocker-backend:latest
     container_name: springboot
     ports:
       - "2025:2000"
@@ -24,7 +24,7 @@ services:
       - springboot-mysql-net
 
   frontend:
-    image: klu2300031070/docker-frontend:latest
+    image: klu2300031070/voterdocker-frontend:latest
     container_name: myreact
     ports:
       - "3000:80"

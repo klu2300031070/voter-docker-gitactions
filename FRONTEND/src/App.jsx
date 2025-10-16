@@ -1,4 +1,6 @@
-import VoterApp from "./Voterapp"
+import VoterApp from "./components/VoterApp"
+
+
 
 
 function App() {
